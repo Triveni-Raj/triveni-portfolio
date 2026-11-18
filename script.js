@@ -30,7 +30,7 @@ let portraitMaterial = null;
 let particleMaterial = null;
 let portraitReadyAt = null;
 
-const portraitTexture = new THREE.TextureLoader().load('./assets/triveni-portrait-bw.png', (texture) => {
+const portraitTexture = new THREE.TextureLoader().load('./triveni-portrait-bw.png', (texture) => {
   texture.colorSpace = THREE.SRGBColorSpace;
   texture.minFilter = THREE.LinearFilter;
   texture.magFilter = THREE.LinearFilter;
